@@ -123,7 +123,51 @@ body {
 /* medias */
 @media (max-width: 450px) {
     .clock {
+        width: 350px;
+        height: 350px;
+        margin-left: 50px;
+    }
+
+    .clock .hand.seconds {
+        width: 3px;
+        height: 32%;
+        background-color: red;
+    }
+    
+    .clock .hand.minutes {
+        width: 6px;
+        height: 28%;
+        background-color: black;
+    }
+    
+    .clock .hand.hours {
+        width: 9px;
+        height: 20%;
+        background-color: black;
+    }
+}
+
+@media (max-width: 370px) {
+    .clock {
         width: 300px;
         height: 300px;
+    }
+
+    .clock .hand.seconds {
+        width: 3px;
+        height: 32%;
+        background-color: red;
+    }
+    
+    .clock .hand.minutes {
+        width: 6px;
+        height: 28%;
+        background-color: black;
+    }
+    
+    .clock .hand.hours {
+        width: 9px;
+        height: 20%;
+        background-color: black;
     }
 }
