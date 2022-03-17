@@ -125,7 +125,6 @@ body {
     .clock {
         width: 350px;
         height: 350px;
-        margin-left: 50px;
     }
 
     .clock .hand.seconds {
